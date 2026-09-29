@@ -5,23 +5,23 @@ class Flightlog < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/skrcka/flightlog/releases/download/v0.2.1/flightlog-aarch64-apple-darwin.tar.gz"
-      sha256 "e63ba7c1cb51f1c2f13a3ce8b37c00abd7f3b437bf615befc1211b85d8112d67"
+      url "https://github.com/skrcka/flightlog/releases/download/v0.2.2/flightlog-aarch64-apple-darwin.tar.gz"
+      sha256 "17217cb306b53a61f23576ff8ed6938f687a5de174d853b219d367cd506937e9"
     end
     on_intel do
-      url "https://github.com/skrcka/flightlog/releases/download/v0.2.1/flightlog-x86_64-apple-darwin.tar.gz"
-      sha256 "661e7f533aae046ca0d6954cfa926c31808fe804e0b77231c3ea7a1bf39568c4"
+      url "https://github.com/skrcka/flightlog/releases/download/v0.2.2/flightlog-x86_64-apple-darwin.tar.gz"
+      sha256 "a193e4d0d85963bbc36e9f241a838db774681abafdd6043b5e1c4df046399dbd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/skrcka/flightlog/releases/download/v0.2.1/flightlog-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "01fe82fc4e253f8fbca105009e3145eb5131981886bb864077796ad4699cef2d"
+      url "https://github.com/skrcka/flightlog/releases/download/v0.2.2/flightlog-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "3760f23a47b3844c0add1ba766c549cc16b981cfb5f8f2d644102f647f2196e9"
     end
     on_intel do
-      url "https://github.com/skrcka/flightlog/releases/download/v0.2.1/flightlog-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "eac2a6802b7b43092980b669a6081f6a7322b4c2bcc5b231d93590df86886fff"
+      url "https://github.com/skrcka/flightlog/releases/download/v0.2.2/flightlog-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8d41d2501a392e8d74641681696d209ee36921a9537022dba4f8e3e992e24138"
     end
   end
 
